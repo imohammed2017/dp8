@@ -46,9 +46,9 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'v2vdps.database.windows.net'),
+            'host' => env('DB_HOST', 'dpserver.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'v2vdpdb'),
+            'database' => env('DB_DATABASE', 'v2vdream'),
             'username' => env('DB_USERNAME', 'v2vadmin'),
             'password' => env('DB_PASSWORD', 'DreamPortal2022'),
             'unix_socket' => env('DB_SOCKET', ''),
